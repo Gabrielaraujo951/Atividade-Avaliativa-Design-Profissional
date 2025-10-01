@@ -272,15 +272,12 @@
 
     <script>
         function openTab(evt, tabId) {
-            // Esconde todos os conteúdos
             let contents = document.querySelectorAll(".tab-content");
             contents.forEach(c => c.classList.remove("active"));
 
-            // Remove destaque das abas
             let tabs = document.querySelectorAll(".tab");
             tabs.forEach(t => t.classList.remove("active"));
 
-            // Mostra o conteúdo da aba clicada
             document.getElementById(tabId).classList.add("active");
             evt.currentTarget.classList.add("active");
         }
@@ -291,5 +288,6 @@
             feita por Caio Silveira; Chistopher Alecrim; Gabriel Silva; Samuel Luka; William Perim; Breno </p>
     </footer>
 </body>
+
 
 </html>
