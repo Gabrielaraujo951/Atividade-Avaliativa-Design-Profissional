@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Certificações Profissionais 2025</title>
+
+    <style>
+         html,
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+        }
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(https://i.pinimg.com/originals/54/32/0c/54320c6eb76b0403b21e02dc508917df.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            min-height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 20px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        nav {
+            background-color: #0055aa;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+            flex: 1;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        section h2 {
+            color: #003366;
+            border-bottom: 2px solid #0055aa;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            background: #003366;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .tabs {
+            display: flex;
+            justify-content: center;
+            border-bottom: 2px solid #ccc;
+            color: #fff;
+
+        }
+
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            border-bottom: none;
+            background: #003366;
+
+            margin-right: 5px;
+        }
+
+        .tab.active {
+            background: #003366;
+            font-weight: bold;
+        }
+
+        .tab-content {
+            display: none;
+            border: 1px solid #ccc;
+            padding: 20px;
+            background-color: #0303036e;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+    </style>
+</head>
+
+<header>
+    <h1>Certificações Profissionais em 2025</h1>
+</header>
+
+<body>
+
+    <div class="tabs">
+        <div class="tab active" onclick="openTab(event, 'Inicio')">Inicio</div>
+        <div class="tab" onclick="openTab(event, 'Certificações')">Certificações</div>
+        <div class="tab" onclick="openTab(event, 'Perfil Profissional')">Perfil Profissional</div>
+        <div class="tab" onclick="openTab(event, 'Custos e Formatos')">Custos e Formatos</div>
+        <div class="tab" onclick="openTab(event, 'Aprendizado Contínuo')">Aprendizado Contínuo</div>
+        <div class="tab" onclick="openTab(event, 'Eventos sobre TI')">Eventos sobre TI</div>
+    </div>
+
+    <div id="Inicio" class="tab-content active">
+        <h2>Guia para o desenvolvimento da sua carreira</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREkBmdFNZrFwlykXM6dOgV0HMZ4WvUVkJC1A&s" alt="">
+
+        <table border="1" cellpadding="8" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>Certificação</th>
+                    <th>Área</th>
+                    <th>Custo (USD)</th>
+                    <th>Formato</th>
+                    <th>Idioma</th>
+                    <th>Nível</th>
+                    <th>Link Oficial</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>AWS Solutions Architect</td>
+                    <td>Cloud</td>
+                    <td>$150</td>
+                    <td>Online/Presencial</td>
+                    <td>EN, PT-BR</td>
+                    <td>Intermediário</td>
+                    <td><a href="https://aws.amazon.com/certification/" target="_blank">AWS</a></td>
+                </tr>
+                <tr>
+                    <td>CompTIA Security+</td>
+                    <td>Cibersegurança</td>
+                    <td>$392</td>
+                    <td>Online/Presencial</td>
+                    <td>EN, PT-BR</td>
+                    <td>Intermediário</td>
+                    <td><a href="https://www.comptia.org/" target="_blank">CompTIA</a></td>
+                </tr>
+                <tr>
+                    <td>PMP (PMI)</td>
+                    <td>Gestão de Projetos</td>
+                    <td>$405–$555</td>
+                    <td>Online/Presencial</td>
+                    <td>EN, PT-BR</td>
+                    <td>Avançado</td>
+                    <td><a href="https://www.pmi.org/certifications/pmp" target="_blank">PMI</a></td>
+                </tr>
+                <tr>
+                    <td>Microsoft Certified: AI Engineer</td>
+                    <td>IA / Machine Learning</td>
+                    <td>$165</td>
+                    <td>Online</td>
+                    <td>EN, PT-BR</td>
+                    <td>Avançado</td>
+                    <td><a href="https://learn.microsoft.com/certifications" target="_blank">Microsoft</a></td>
+                </tr>
+                <tr>
+                    <td>Google Data Analytics (Coursera)</td>
+                    <td>Dados e Analytics</td>
+                    <td>$39/mês</td>
+                    <td>Online</td>
+                    <td>EN, PT-BR</td>
+                    <td>Básico</td>
+                    <td><a href="https://www.coursera.org/professional-certificates/google-data-analytics"
+                            target="_blank">Coursera</a></td>
+                </tr>
+            </tbody>
+        </table>
+
+
+
+    </div>
+
+    <div id="Certificações" class="tab-content">
+        <h2>Quais certificações são mais valorizadas em 2025?</h2>
+        <ul>
+            <li>Cloud (AWS, Azure, Google Cloud)</li>
+            <li>Cibersegurança (CISSP, CompTIA Security+)</li>
+            <li>Inteligência Artificial e Machine Learning</li>
+            <li>Gestão de Projetos (PMP, Scrum Master)</li>
+            <li>Dados e Analytics (Power BI, Data Science)</li>
+        </ul>
+    </div>
+    <div id="Perfil Profissional" class="tab-content">
+        <h2>Qual perfil profissional ideal para cada certificação?</h2>
+        <ul>
+            <li><strong>Cloud:</strong> Profissionais de infraestrutura, DevOps, arquitetos de sistemas.</li>
+            <li><strong>Cibersegurança:</strong> Analistas de segurança, engenheiros de rede, compliance.</li>
+            <li><strong>IA/ML:</strong> Cientistas de dados, engenheiros de software, pesquisadores.</li>
+            <li><strong>Gestão de Projetos:</strong> Líderes de equipe, coordenadores, consultores.</li>
+            <li><strong>Analytics:</strong> Analistas de BI, engenheiros de dados, gestores de produto.</li>
+        </ul>
+    </div>
+    <div id="Custos e Formatos" class="tab-content">
+        <h2>Custos, formatos e idiomas disponíveis</h2>
+        <p>Os valores variam bastante de acordo com a certificação, podendo ir de <strong>R$ 500 a R$
+                5.000</strong>.
+            Os formatos incluem:</p>
+        <ul>
+            <li>Provas online supervisionadas</li>
+            <li>Exames presenciais</li>
+            <li>Bootcamps com preparação intensiva</li>
+        </ul>
+        <p>Idiomas comuns: <strong>Inglês</strong> (maioria), <strong>Português</strong> (algumas),
+            <strong>Espanhol</strong> (crescendo).
+        </p>
+    </div>
+    <div id="Aprendizado Contínuo" class="tab-content">
+        <h2>Conexão com aprendizado contínuo e evolução na carreira</h2>
+        <p>
+            As certificações não são apenas conquistas pontuais, mas parte de um ciclo de aprendizado contínuo.
+            Elas incentivam o profissional a atualizar conhecimentos, ampliar networking e aumentar a
+            empregabilidade.
+        </p>
+        <p>
+            Muitas exigem <em>recertificação periódica</em>, garantindo que o profissional se mantenha relevante no
+            mercado
+            em constante transformação.
+        </p>
+    </div>
+    <div id="Eventos sobre TI" class="tab-content">
+        <h2>Eventos sobre TI</h2>
+        <p>SIEES : https://siees.com.br/</p>
+        <source><iframe width="560" height="315" src="https://www.youtube.com/embed/Iy_0YAwT47A?si=AFtQiSE-Hi3L8Og8"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+
+    <script>
+        function openTab(evt, tabId) 
+        {
+            let contents = document.querySelectorAll(".tab-content");
+            contents.forEach(c => c.classList.remove("active"));
+
+            let tabs = document.querySelectorAll(".tab");
+            tabs.forEach(t => t.classList.remove("active"));
+
+            document.getElementById(tabId).classList.add("active");
+            evt.currentTarget.classList.add("active");
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2025 Atividade ADS-UDF de guia de Certificações Profissionais
+            feita por Caio Silveira; Chistopher Alecrim; Gabriel Silva; Samuel Luka; William Perim; Breno </p>
+    </footer>
+</body>
+
+</html>
